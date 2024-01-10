@@ -1,0 +1,43 @@
+
+EXERGAME - PEGA BARATA
+
+Este é um jogo simples onde você usa a mão (representada por uma imagem) para pegar uma "barata" que se move pela tela. O jogo pode ser executado em dois modos: usando a câmera ao vivo ou um background estático.
+
+Dependências:
+- Python 3.x
+- OpenCV (cv2)
+- MediaPipe (mediapipe)
+- Pygame
+- Random
+- Sys
+
+Instruções para Execução:
+
+1. Instale as dependências executando o seguinte comando no terminal:
+
+pip install opencv-python mediapipe pygame
+
+
+2. Certifique-se de ter as imagens 'barata.png' e 'CHINELO.png' na mesma pasta que este script.
+
+3. Execute o jogo:
+- Modo 1 (Câmera ao Vivo):
+  ```
+  python nome_do_seu_script.py
+  ```
+- Modo 2 (Background Estático):
+  ```
+  python nome_do_seu_script.py --background
+  ```
+
+Controles do Jogo:
+- No modo câmera ao vivo, mova sua mão para capturar a "barata".
+- No modo background, a mão é controlada usando as setas do teclado.
+
+Regras do Jogo:
+- Cada vez que a mão toca na "barata", sua pontuação aumenta.
+- O jogo dura 7 segundos. Após esse tempo, o jogo é encerrado.
+
+"""
+
+Todos direitos Reservados, Renan Quintanilha Marques
